@@ -1,0 +1,7 @@
+com\qisi\freemarker\dao\UserDao.class
+com\qisi\freemarker\service\Impl\UserServiceImpl.class
+com\qisi\freemarker\controller\hicontroller.class
+com\qisi\freemarker\service\Interface\UserService.class
+com\qisi\freemarker\controller\UserController.class
+com\qisi\freemarker\FreemarkerApplication.class
+com\qisi\freemarker\pojo\user.class
