@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @CreateUser: Mr.Hao
  * @CreateDate: 2020/7/6  13:17
  **/
-@Controller
+@RestController
 public class hicontroller {
     @RequestMapping("/hi")
     public String hi(){
