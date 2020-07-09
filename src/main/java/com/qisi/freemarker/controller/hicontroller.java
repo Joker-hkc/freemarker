@@ -1,6 +1,7 @@
 package com.qisi.freemarker.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,5 +19,10 @@ public class hicontroller {
     @RequestMapping("/hi")
     public String hi(){
         return "hi";
+    }
+
+    @GetMapping("/hello")
+    public String hello(){
+        return "hello";
     }
 }
